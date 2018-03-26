@@ -22,7 +22,7 @@ function setBMIMessage (obj){
     console.log(this);
     obj.bmiMessage = "Overweight";
   }
-  if (obj.nmiValue > 30) {
+  if (obj.bmiValue > 30) {
     obj.bmiMessage = "Obese";
   }
 }
